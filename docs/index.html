@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Brandon Connell is a software engineer working in backend systems, C#, .NET, C, C++, Java, and software architecture. Explore public projects and technical evidence.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brandon Connell | Software Engineer">
+  <meta property="og:description" content="Backend systems, systems engineering, and native software. Selected public projects, implementation status, and technical documentation.">
+  <title>Brandon Connell | Software Engineer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-synthesis: none;
+      background: #0b1220;
+      color: #f0f5ff;
+      --bg: #0b1220;
+      --panel: #121e31;
+      --stroke: #34445c;
+      --muted: #becbdc;
+      --accent: #82c5ff;
+      --accent-strong: #b2dcff;
+      --max: 1060px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; line-height: 1.65; }
+    a { color: var(--accent); text-underline-offset: .18em; }
+    a:hover { color: var(--accent-strong); }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #ffd56a; outline-offset: 4px; border-radius: 2px; }
+    .skip { position: absolute; left: 1rem; top: -10rem; background: white; color: #08101c; padding: .5rem .75rem; z-index: 4; }
+    .skip:focus { top: 1rem; }
+    .wrap { width: min(calc(100% - 2.5rem), var(--max)); margin-inline: auto; }
+    .site-head { border-bottom: 1px solid var(--stroke); background: #0b1424; }
+    .site-head .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .75rem 1.5rem; min-height: 5rem; padding-block: .75rem; }
+    .wordmark { color: #fff; font-size: 1.04rem; font-weight: 750; text-decoration: none; letter-spacing: .01em; }
+    nav ul { list-style: none; display: flex; gap: .4rem 1.25rem; flex-wrap: wrap; margin: 0; padding: 0; }
+    nav a { color: #e6eef8; }
+    .hero { padding-block: clamp(4rem, 8vw, 7rem) 3.2rem; }
+    .eyebrow { color: var(--accent); font-size: .85rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { max-width: 19ch; font-size: clamp(2.4rem, 6.5vw, 4.4rem); line-height: 1.12; letter-spacing: -.045em; margin: .8rem 0 1.25rem; }
+    h2 { font-size: clamp(1.55rem, 3vw, 2rem); line-height: 1.25; margin: 0 0 .8rem; }
+    h3 { font-size: 1.25rem; margin: 0 0 .5rem; line-height: 1.3; }
+    .lead { font-size: clamp(1.06rem, 1.9vw, 1.25rem); max-width: 66ch; color: #d6e1ef; }
+    .actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.8rem; }
+    .action { display: inline-block; border: 1px solid #73b6fc; border-radius: .55rem; padding: .72rem 1.15rem; font-weight: 650; color: #ecf7ff; text-decoration: none; }
+    .action.primary { background: #155c9a; border-color: #4797dd; }
+    .action:hover { background: #1d3552; color: #fff; }
+    .action.primary:hover { background: #1d70b9; }
+    .section { padding-block: 2.6rem; border-top: 1px solid var(--stroke); }
+    .section-intro { color: var(--muted); margin: 0 0 1.5rem; max-width: 75ch; }
+    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+    article { border: 1px solid var(--stroke); background: var(--panel); border-radius: .85rem; padding: clamp(1.25rem, 2.5vw, 1.75rem); }
+    article p { margin: .4rem 0 1rem; }
+    .stack { color: var(--accent); font-size: .92rem; font-weight: 700; margin: 0 0 .6rem; }
+    .state { font-size: .95rem; color: #d2deeb; }
+    .evidence { border-top: 1px solid var(--stroke); padding-top: .9rem; margin-top: 1.2rem; font-size: .94rem; }
+    .evidence a { display: inline-block; margin-right: .75rem; margin-bottom: .4rem; }
+    .principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+    .principles h3 { font-size: 1.1rem; color: #e2f1ff; }
+    .principles p { color: #cfdaea; margin-top: .4rem; }
+    .contact { background: #121e31; border: 1px solid var(--stroke); border-radius: .85rem; padding: clamp(1.3rem, 3vw, 2rem); }
+    footer { padding: 2rem 0 3rem; color: var(--muted); font-size: .92rem; }
+    @media (max-width: 720px) {
+      .cards, .principles { grid-template-columns: 1fr; }
+      .site-head .wrap { align-items: flex-start; }
+      .hero { padding-top: 3rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="wordmark" href="#top" aria-label="Brandon Connell, page top">Brandon Connell</a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#work">Selected work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/bconnell">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="intro-title">
+      <p class="eyebrow">Software engineer · Illinois · Remote opportunities</p>
+      <h1 id="intro-title">I build software that has to hold up in practice.</h1>
+      <p class="lead">I'm Brandon Connell. I work across backend APIs, native software, systems programming, and hardware architecture research. My primary professional focus is C# and .NET, with public work in Java, C17, C++, and TypeScript.</p>
+      <p class="lead">I value predictable behavior, performance on ordinary hardware, and honest technical evidence. Below are selected public repositories with direct links to their implementation and documentation.</p>
+      <div class="actions">
+        <a class="action primary" href="#work">Explore projects</a>
+        <a class="action" href="mailto:brandon@brandonconnell.com">Contact by email</a>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <h2 id="work-title">Selected engineering work</h2>
+        <p class="section-intro">Different kinds of engineering, documented at their actual stages. A prototype, an active engine, and a tested API should not be mistaken for the same kind of deliverable.</p>
+        <div class="cards">
+          <article>
+            <p class="stack">Java 21 · Spring Boot · PostgreSQL · Testcontainers</p>
+            <h3><a href="https://github.com/bconnell/lead-intake-api">Lead Intake API</a></h3>
+            <p>REST endpoints for lead intake and lifecycle operations, with input validation, typed API contracts, database migrations, paging, filtering, and integration tests.</p>
+            <p class="state"><strong>Status:</strong> Public portfolio API with documented validation scope.</p>
+            <div class="evidence" aria-label="Lead Intake API evidence">
+              <a href="https://github.com/bconnell/lead-intake-api/blob/main/docs/VALIDATION.md">Validation</a>
+              <a href="https://github.com/bconnell/lead-intake-api/blob/main/docs/PORTFOLIO_COMPLETENESS.md">Scope and limits</a>
+            </div>
+          </article>
+
+          <article>
+            <p class="stack">GPU architecture · RTL · C++</p>
+            <h3><a href="https://github.com/bconnell/CGX1">CGX1</a></h3>
+            <p>A compact GPU architecture engineering reference, with execution, scheduling, memory, graphics, power, mechanical, and prototype design material.</p>
+            <p class="state"><strong>Status:</strong> Architecture and prototype design. No fabricated custom ASIC. Performance values are targets, not measurements.</p>
+            <div class="evidence" aria-label="CGX1 evidence">
+              <a href="https://github.com/bconnell/CGX1/blob/main/docs/ENGINEERING_SPEC.md">Specification</a>
+              <a href="https://github.com/bconnell/CGX1/blob/main/docs/STATUS.md">Project status</a>
+              <a href="https://github.com/bconnell/CGX1/blob/main/docs/VALIDATION.md">Validation</a>
+            </div>
+          </article>
+
+          <article>
+            <p class="stack">C17 · Native editor · Runtime systems</p>
+            <h3><a href="https://github.com/bconnell/HenkaEngine">Henka Engine</a></h3>
+            <p>An early-stage native game engine with renderer, terrain, physics, asset, editor, and headless-runtime foundations. Includes documented platform and subsystem boundaries.</p>
+            <p class="state"><strong>Status:</strong> Active development. Current capabilities and planned work are distinguished in the repository.</p>
+            <div class="evidence" aria-label="Henka Engine evidence">
+              <a href="https://github.com/bconnell/HenkaEngine/blob/main/docs/current-capabilities.md">Capabilities</a>
+              <a href="https://github.com/bconnell/HenkaEngine/blob/main/docs/building.md">Build and test</a>
+            </div>
+          </article>
+
+          <article>
+            <p class="stack">TypeScript · React · Chromium extension</p>
+            <h3><a href="https://github.com/bconnell/Rapid-Robot-Job-Assistant">Rapid Robot Job Assistant</a></h3>
+            <p>Local-first tools for reviewing job pages and preparing application field suggestions, with strict target checks, reviewed filling, and local data safeguards.</p>
+            <p class="state"><strong>Status:</strong> Development project. User approval is required before filling, and final submission is always manual.</p>
+            <div class="evidence" aria-label="Rapid Robot evidence">
+              <a href="https://github.com/bconnell/Rapid-Robot-Job-Assistant#readme">Implementation and setup</a>
+              <a href="https://github.com/bconnell/Rapid-Robot-Job-Assistant/blob/main/docs/roadmap.md">Roadmap and limits</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="approach" aria-labelledby="approach-title">
+      <div class="wrap">
+        <h2 id="approach-title">How I approach engineering</h2>
+        <div class="principles">
+          <div>
+            <h3>Explicit boundaries</h3>
+            <p>Keep one source of truth for important state. Define ownership, inputs, error handling, and integration contracts.</p>
+          </div>
+          <div>
+            <h3>Proof over polish</h3>
+            <p>Provide ways to validate behavior. Separate completed capabilities from partial implementations and future targets.</p>
+          </div>
+          <div>
+            <h3>Practical constraints</h3>
+            <p>Favor maintainable code, restrained dependencies, accessible hardware paths, and non-destructive changes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="contact">
+          <h2 id="contact-title">Let's talk engineering</h2>
+          <p>I'm interested in remote, full-time software engineering opportunities, particularly backend systems, .NET/C#, and technically demanding software.</p>
+          <p><strong>Email:</strong> <a href="mailto:brandon@brandonconnell.com">brandon@brandonconnell.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brandon-connell-b317a81b/">Brandon Connell</a></p>
+          <p><strong>Source:</strong> <a href="https://github.com/bconnell?tab=repositories">Public GitHub repositories</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© Brandon Connell. Project maturity and supported platforms are documented in each repository.</div>
+  </footer>
+</body>
+</html>

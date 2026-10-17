@@ -1,10 +1,12 @@
 # Brandon Connell
 
-**Software engineer | Backend systems, native software, and performance-conscious engineering**
+**Software engineer | Game engines, systems programming, native software, and GPU architecture**
 
-I build software that has to work outside the happy path. My public work spans backend APIs, C and C++ systems, hardware architecture research, native tooling, and practical browser software. I care about clear interfaces, repeatable validation, accurate documentation, and making failure states visible instead of hiding them.
+I build a mix of software: native game engines and tools, gameplay systems, GPU architecture research, backend APIs, and lead generation software. What keeps me interested is figuring out how the underlying systems work and making them efficient and dependable. I care about performance on ordinary hardware, clear interfaces, repeatable validation, and being able to show what actually works.
 
-**Open to remote, full-time software engineering opportunities.** My strongest professional focus is C#, .NET, backend systems, and systems-level problem solving. I also work in Java, C17, C++, and TypeScript.
+My tools include C, C++, C#, .NET, Java, and TypeScript. I choose languages for the work rather than defining myself by one of them. My experience also includes web and backend development, especially software built around a specific business problem. General website development and e-commerce aren't the direction I'm looking to pursue.
+
+**Open to remote, full-time software engineering opportunities.** I'm most interested in game engines and games, rendering, native and systems development, GPU-related engineering, and simulation. I'm also interested in moving into robotics and developing experience with sensors, controls, and physical systems. Purpose-built backend services and lead generation platforms remain part of the work I enjoy.
 
 [Selected work](#selected-engineering-work) · [How I work](#engineering-approach) · [Contact](#contact)
 
@@ -51,7 +53,7 @@ The repositories are independent projects with different release stages and cont
 
 ## Contact
 
-I am based in Illinois and interested in **remote software engineering roles** involving backend development, .NET/C#, systems programming, and technical problem solving.
+I'm based in Illinois and open to **remote software engineering roles** focused on game engines, games, native software, systems programming, GPU and simulation work, or opportunities to grow into robotics. I also consider substantial backend and lead generation engineering work.
 
 - **Email:** [brandon@brandonconnell.com](mailto:brandon@brandonconnell.com)
 - **LinkedIn:** [Brandon Connell](https://www.linkedin.com/in/brandon-connell-b317a81b/)

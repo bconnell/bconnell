@@ -53,7 +53,7 @@ The repositories are independent projects with different release stages and cont
 
 ## Contact
 
-I'm based in Illinois and open to **remote software engineering roles** focused on game engines, games, native software, systems programming, GPU and simulation work, or opportunities to grow into robotics. I also consider substantial backend and lead generation engineering work.
+I'm based in Illinois and open to **remote software engineering roles** involving game engines, gameplay systems, native applications, rendering, graphics, simulation, and systems programming. I'm also interested in growing into robotics, and I remain open to substantial backend or lead generation engineering work.
 
 - **Email:** [brandon@brandonconnell.com](mailto:brandon@brandonconnell.com)
 - **LinkedIn:** [Brandon Connell](https://www.linkedin.com/in/brandon-connell-b317a81b/)

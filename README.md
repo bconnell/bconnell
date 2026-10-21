@@ -22,6 +22,14 @@ An incident intake and response application. It groups repeat alerts under one i
 
 **What to inspect:** [Dashboard screenshot](https://github.com/bconnell/TriageDock/blob/main/docs/screenshots/dashboard.webp) · [Engineering walkthrough](https://github.com/bconnell/TriageDock/blob/main/docs/PROJECT_OVERVIEW.md) · [API contract](https://github.com/bconnell/TriageDock/blob/main/docs/API.md)
 
+### [OnceLedger](https://github.com/bconnell/OnceLedger) · Java 21, Spring Boot, PostgreSQL
+
+A demonstration transfer ledger for handling repeated requests safely. PostgreSQL coordinates requests sharing an idempotency key and commits balance updates, ledger entries, and the saved response in one transaction. A matching retry reuses its receipt; a different request with the same key is rejected.
+
+**Maturity:** Local technical demonstration with simulated credits, not a payment service. The full Maven and Testcontainers suite is provided but has not yet been verified by a completed run.
+
+**What to inspect:** [Application and API](https://github.com/bconnell/OnceLedger#readme) · [Transaction and failure model](https://github.com/bconnell/OnceLedger/blob/main/docs/architecture.md) · [Local verification](https://github.com/bconnell/OnceLedger#local-quality-gates)
+
 ### [Lead Intake API](https://github.com/bconnell/lead-intake-api) · Java 21, Spring Boot, PostgreSQL
 
 A REST API for creating, searching, updating, and reporting on leads. It separates HTTP contracts, services, persistence, and database migrations. The repository documents validation with H2-backed tests and PostgreSQL integration tests using Testcontainers.

@@ -30,6 +30,14 @@ A demonstration transfer ledger for handling repeated requests safely. PostgreSQ
 
 **What to inspect:** [Application and API](https://github.com/bconnell/OnceLedger#readme) · [Transaction and failure model](https://github.com/bconnell/OnceLedger/blob/main/docs/architecture.md) · [Local verification](https://github.com/bconnell/OnceLedger#local-quality-gates)
 
+### [GroundedTrail](https://github.com/bconnell/GroundedTrail) · Python, FastAPI, LangChain, PostgreSQL/pgvector
+
+A document retrieval and evidence workspace for indexing Markdown and plain text, finding source passages, and inspecting citations. It includes a browser interface, optional model-generated answers, and reference-based retrieval evaluation.
+
+**Maturity:** Local technical demonstration. API tests cover the temporary backend; a completed PostgreSQL integration test run is not yet documented.
+
+**What to inspect:** [Application screenshot](https://github.com/bconnell/GroundedTrail/blob/main/docs/screenshots/workspace.png) · [Overview and setup](https://github.com/bconnell/GroundedTrail#readme) · [Evaluation cases](https://github.com/bconnell/GroundedTrail/blob/main/eval/questions.json)
+
 ### [Lead Intake API](https://github.com/bconnell/lead-intake-api) · Java 21, Spring Boot, PostgreSQL
 
 A REST API for creating, searching, updating, and reporting on leads. It separates HTTP contracts, services, persistence, and database migrations. The repository documents validation with H2-backed tests and PostgreSQL integration tests using Testcontainers.

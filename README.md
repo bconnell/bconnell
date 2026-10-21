@@ -30,6 +30,14 @@ A demonstration transfer ledger for handling repeated requests safely. PostgreSQ
 
 **What to inspect:** [Application and API](https://github.com/bconnell/OnceLedger#readme) · [Transaction and failure model](https://github.com/bconnell/OnceLedger/blob/main/docs/architecture.md) · [Local verification](https://github.com/bconnell/OnceLedger#local-quality-gates)
 
+### [LogSpindle](https://github.com/bconnell/LogSpindle) · Rust, CLI, JSONL
+
+A lightweight command-line tool for filtering and summarizing structured application logs without a database or server. The source handles timestamp and severity filters, standard input, malformed records, and deterministic error summaries. Local text validation, integration tests, and release verification scripts are included.
+
+**Maturity:** Source implementation merged. Rust compilation, integration tests, and release behavior have not yet been verified; dependency lockfile generation remains pending.
+
+**What to inspect:** [CLI and input format](https://github.com/bconnell/LogSpindle#readme) · [Rust source](https://github.com/bconnell/LogSpindle/blob/main/src/main.rs) · [CLI tests](https://github.com/bconnell/LogSpindle/blob/main/tests/cli.rs) · [Validation contract](https://github.com/bconnell/LogSpindle/blob/main/docs/VALIDATION.md)
+
 ### [GroundedTrail](https://github.com/bconnell/GroundedTrail) · Python, FastAPI, LangChain, PostgreSQL/pgvector
 
 A document retrieval and evidence workspace for indexing Markdown and plain text, finding source passages, and inspecting citations. It includes a browser interface, optional model-generated answers, and reference-based retrieval evaluation.

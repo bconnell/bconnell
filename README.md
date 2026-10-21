@@ -16,9 +16,9 @@ The projects below are publicly accessible and are presented with their actual m
 
 ### [TriageDock](https://github.com/bconnell/TriageDock) · Python, Django, PostgreSQL, React
 
-An incident intake and response application. It groups repeat alerts under one incident, records status changes, and lets operators review, acknowledge, and resolve incidents through a browser. Celery and Redis handle optional notification attempts, with failures recorded rather than hidden.
+An incident intake and response application. It groups repeated alerts into incidents, records status changes, and lets operators review, acknowledge, and resolve them in a browser. The current source also includes scoped ingestion credentials, operator permissions, and retry recovery for optional notifications.
 
-**Maturity:** [v1.0.0 released](https://github.com/bconnell/TriageDock/releases/tag/v1.0.0) for local evaluation. It is not an internet-ready monitoring or paging service.
+**Maturity:** [v1.0.0 released](https://github.com/bconnell/TriageDock/releases/tag/v1.0.0) for local evaluation. Further hardening is merged on `main` but has not been independently verified as a new release. It is not an internet-ready monitoring or paging service.
 
 **What to inspect:** [Dashboard screenshot](https://github.com/bconnell/TriageDock/blob/main/docs/screenshots/dashboard.webp) · [Engineering walkthrough](https://github.com/bconnell/TriageDock/blob/main/docs/PROJECT_OVERVIEW.md) · [API contract](https://github.com/bconnell/TriageDock/blob/main/docs/API.md)
 

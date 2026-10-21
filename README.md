@@ -4,7 +4,7 @@
 
 I build a mix of software: native game engines and tools, gameplay systems, GPU architecture research, backend APIs, and lead generation software. What keeps me interested is figuring out how the underlying systems work and making them efficient and dependable. I care about performance on ordinary hardware, clear interfaces, repeatable validation, and being able to show what actually works.
 
-My tools include C, C++, C#, .NET, Java, and TypeScript. I choose languages for the work rather than defining myself by one of them. My experience also includes web and backend development, especially software built around a specific business problem. General website development and e-commerce aren't the direction I'm looking to pursue.
+I work with C, C++, C#, .NET, Java, Python, and TypeScript. I choose languages for the work rather than defining myself by one of them. My experience also includes web and backend development, especially software built around a specific business problem. General website development and e-commerce aren't the direction I'm looking to pursue.
 
 **Open to remote, full-time software engineering opportunities.** I'm most interested in game engines and games, rendering, native and systems development, GPU-related engineering, and simulation. I'm also interested in moving into robotics and developing experience with sensors, controls, and physical systems. Purpose-built backend services and lead generation platforms remain part of the work I enjoy.
 
@@ -13,6 +13,14 @@ My tools include C, C++, C#, .NET, Java, and TypeScript. I choose languages for 
 ## Selected engineering work
 
 The projects below are publicly accessible and are presented with their actual maturity and limitations.
+
+### [TriageDock](https://github.com/bconnell/TriageDock) · Python, Django, PostgreSQL, React
+
+An incident intake and response application. It groups repeat alerts under one incident, records status changes, and lets operators review, acknowledge, and resolve incidents through a browser. Celery and Redis handle optional notification attempts, with failures recorded rather than hidden.
+
+**Maturity:** [v1.0.0 released](https://github.com/bconnell/TriageDock/releases/tag/v1.0.0) for local evaluation. It is not an internet-ready monitoring or paging service.
+
+**What to inspect:** [Dashboard screenshot](https://github.com/bconnell/TriageDock/blob/main/docs/screenshots/dashboard.webp) · [Engineering walkthrough](https://github.com/bconnell/TriageDock/blob/main/docs/PROJECT_OVERVIEW.md) · [API contract](https://github.com/bconnell/TriageDock/blob/main/docs/API.md)
 
 ### [Lead Intake API](https://github.com/bconnell/lead-intake-api) · Java 21, Spring Boot, PostgreSQL
 

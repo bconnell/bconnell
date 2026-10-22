@@ -14,6 +14,14 @@ I work with C, C++, C#, .NET, Java, Python, and TypeScript. I choose languages f
 
 The projects below are publicly accessible and are presented with their actual maturity and limitations.
 
+### [SellerInquiry](https://sellerinquiry.com/) · PHP, MySQL, HTML/CSS
+
+A business-owner inquiry website focused on Virginia and North Carolina. It provides state-specific information about selling a business, practical owner guides, and a confidential inquiry form. The application is built around a lightweight PHP deployment rather than a hosted website framework.
+
+**Maturity:** Public website is live. Lead administration and post-launch corrections are still being verified, so the deployment should not be treated as fully completed.
+
+**What to inspect:** [Live website](https://sellerinquiry.com/) · [Homepage screenshot](docs/screenshots/sellerinquiry-homepage.png)
+
 ### [TriageDock](https://github.com/bconnell/TriageDock) · Python, Django, PostgreSQL, React
 
 An incident intake and response application. It groups repeated alerts into incidents, records status changes, and lets operators review, acknowledge, and resolve them in a browser. The current source also includes scoped ingestion credentials, operator permissions, and retry recovery for optional notifications.

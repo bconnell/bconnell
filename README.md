@@ -22,6 +22,12 @@ A business-owner inquiry website focused on Virginia and North Carolina. It prov
 
 **What to inspect:** [Live website](https://sellerinquiry.com/) · [Homepage screenshot](docs/screenshots/sellerinquiry-homepage.png)
 
+### [Web Design Taxi](https://webdesigntaxi.com/) · PHP, MySQL, JavaScript, HTML/CSS
+
+My web development, custom software, and digital marketing business, supported by a database-backed platform rather than a static brochure site. Centralized administration handles service offerings, promotions and coupon campaigns, inquiries, and lead management. The site combines automatically generated SEO metadata with manual controls, search-friendly structured content, seasonal themes, visitor privacy and consent workflows, and layered spam and abusive-traffic protections.
+
+**What to inspect:** [Live website](https://webdesigntaxi.com/)
+
 ### [TriageDock](https://github.com/bconnell/TriageDock) · Python, Django, PostgreSQL, React
 
 An incident intake and response application. It groups repeated alerts into incidents, records status changes, and lets operators review, acknowledge, and resolve them in a browser. The current source also includes scoped ingestion credentials, operator permissions, and retry recovery for optional notifications.

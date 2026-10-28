@@ -4,7 +4,7 @@
 
 I build a mix of software: native game engines and tools, gameplay systems, GPU architecture research, backend APIs, and lead generation software. What keeps me interested is figuring out how the underlying systems work and making them efficient and dependable. I care about performance on ordinary hardware, clear interfaces, repeatable validation, and being able to show what actually works.
 
-I work with C, C++, C#, .NET, Java, Python, and TypeScript. I choose languages for the work rather than defining myself by one of them. My experience also includes web and backend development, especially software built around a specific business problem. General website development and e-commerce aren't the direction I'm looking to pursue.
+I work with C, C++, C#, .NET, Java, Python, and TypeScript. I choose languages based on the problem I'm solving. My experience also includes web and backend development, especially software built around a specific business problem. General website development and e-commerce aren't the direction I'm looking to pursue.
 
 **Open to remote, full-time software engineering opportunities.** I'm most interested in game engines and games, rendering, native and systems development, GPU-related engineering, and simulation. I'm also interested in moving into robotics and developing experience with sensors, controls, and physical systems. Purpose-built backend services and lead generation platforms remain part of the work I enjoy.
 
@@ -16,7 +16,7 @@ The projects below are publicly accessible and are presented with their actual m
 
 ### [SellerInquiry](https://sellerinquiry.com/) · PHP, MySQL, HTML/CSS
 
-A business-owner inquiry website focused on Virginia and North Carolina. It provides state-specific information about selling a business, practical owner guides, and a confidential inquiry form. The application is built around a lightweight PHP deployment rather than a hosted website framework.
+A business-owner inquiry website focused on Virginia and North Carolina. It provides state-specific information about selling a business, practical owner guides, and a confidential inquiry form. The site uses a lightweight PHP application with direct control over its hosting and deployment.
 
 **Maturity:** Public website is live. Lead administration and post-launch corrections are still being verified, so the deployment should not be treated as fully completed.
 
@@ -24,7 +24,7 @@ A business-owner inquiry website focused on Virginia and North Carolina. It prov
 
 ### [Web Design Taxi](https://webdesigntaxi.com/) · PHP, MySQL, JavaScript, HTML/CSS
 
-My web development, custom software, and digital marketing business, supported by a database-backed platform rather than a static brochure site. Centralized administration handles service offerings, promotions and coupon campaigns, inquiries, and lead management. The site combines automatically generated SEO metadata with manual controls, search-friendly structured content, seasonal themes, visitor privacy and consent workflows, and layered spam and abusive-traffic protections.
+Web Design Taxi is my web design, custom software, and digital marketing business. Its PHP and MySQL platform manages services, promotions, coupon codes, customer inquiries, and leads in one place. The site includes configurable SEO metadata, manual overrides, structured data for search engines, scheduled holiday themes, privacy and consent controls, and protections against form spam and abusive traffic.
 
 **What to inspect:** [Live website](https://webdesigntaxi.com/)
 

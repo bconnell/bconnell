@@ -14,7 +14,11 @@ I work with C, C++, C#, .NET, Java, Python, and TypeScript. I choose languages b
 
 The projects below are publicly accessible and are presented with their actual maturity and limitations.
 
+Screenshots are taken from the actual applications. Projects without a verified image remain text-only until suitable evidence is available.
+
 ### [SellerInquiry](https://sellerinquiry.com/) · PHP, MySQL, HTML/CSS
+
+<a href="https://sellerinquiry.com/"><img align="left" width="150" hspace="8" vspace="4" src="docs/screenshots/sellerinquiry-homepage.png" alt="Actual SellerInquiry website homepage screenshot"></a>
 
 A business-owner inquiry website focused on Virginia and North Carolina. It provides state-specific information about selling a business, practical owner guides, and a confidential inquiry form. The site uses a lightweight PHP application with direct control over its hosting and deployment.
 
@@ -29,6 +33,8 @@ Web Design Taxi is my web design, custom software, and digital marketing busines
 **What to inspect:** [Live website](https://webdesigntaxi.com/)
 
 ### [TriageDock](https://github.com/bconnell/TriageDock) · Python, Django, PostgreSQL, React
+
+<a href="https://github.com/bconnell/TriageDock/blob/main/docs/screenshots/dashboard.webp"><img align="right" width="150" hspace="8" vspace="4" src="https://raw.githubusercontent.com/bconnell/TriageDock/main/docs/screenshots/dashboard.webp" alt="Actual TriageDock incident dashboard screenshot"></a>
 
 An incident intake and response application. It groups repeated alerts into incidents, records status changes, and lets operators review, acknowledge, and resolve them in a browser. The current source also includes scoped ingestion credentials, operator permissions, and retry recovery for optional notifications.
 
@@ -53,6 +59,8 @@ A lightweight command-line tool for filtering and summarizing structured applica
 **What to inspect:** [CLI and input format](https://github.com/bconnell/LogSpindle#readme) · [Rust source](https://github.com/bconnell/LogSpindle/blob/main/src/main.rs) · [CLI tests](https://github.com/bconnell/LogSpindle/blob/main/tests/cli.rs) · [Validation contract](https://github.com/bconnell/LogSpindle/blob/main/docs/VALIDATION.md)
 
 ### [GroundedTrail](https://github.com/bconnell/GroundedTrail) · Python, FastAPI, LangChain, PostgreSQL/pgvector
+
+<a href="https://github.com/bconnell/GroundedTrail/blob/main/docs/screenshots/workspace.png"><img align="left" width="150" hspace="8" vspace="4" src="https://raw.githubusercontent.com/bconnell/GroundedTrail/main/docs/screenshots/workspace.png" alt="Actual GroundedTrail source retrieval workspace screenshot"></a>
 
 A document retrieval and evidence workspace for indexing Markdown and plain text, finding source passages, and inspecting citations. It includes a browser interface, optional model-generated answers, and reference-based retrieval evaluation.
 
